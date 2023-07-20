@@ -16,7 +16,7 @@ class BankAccount():
         self.balance - amount
         if (self.balance - amount) > 0:
             self.balance -= amount
-            print("insufficient funds: charging a $5 fee, your balance is {self.balance}")
+            print(f"insufficient funds: charging a $5 fee, your balance is {self.balance}")
             return self
         
     def display_account_info(self):
